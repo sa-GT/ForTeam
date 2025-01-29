@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Abdullah\abd.aspx" />
+    <Content Include="Alooosh\aliff.aspx" />
     <Content Include="Alooosh\aloosh.aspx" />
     <Content Include="Farah\Farah.aspx" />
     <Content Include="Habib\habib.aspx" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="Abdullah\abd.aspx.designer.cs">
       <DependentUpon>abd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alooosh\aliff.aspx.cs">
+      <DependentUpon>aliff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alooosh\aliff.aspx.designer.cs">
+      <DependentUpon>aliff.aspx</DependentUpon>
     </Compile>
     <Compile Include="Alooosh\aloosh.aspx.cs">
       <DependentUpon>aloosh.aspx</DependentUpon>
