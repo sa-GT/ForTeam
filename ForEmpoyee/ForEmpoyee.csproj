@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ForEmpoyee</RootNamespace>
     <AssemblyName>ForEmpoyee</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44374</IISExpressSSLPort>
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,10 +51,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -71,8 +68,10 @@
     <Content Include="Alooosh\aliff.aspx" />
     <Content Include="Alooosh\aloosh.aspx" />
     <Content Include="Farah\Farah.aspx" />
+    <Content Include="Farah\WebForm1.aspx" />
     <Content Include="Habib\habib.aspx" />
     <Content Include="Hala\Hala.aspx" />
+    <Content Include="Hala\WebForm1.aspx" />
     <Content Include="souliman\soulllllllimannnn.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -105,6 +104,13 @@
     <Compile Include="Farah\Farah.aspx.designer.cs">
       <DependentUpon>Farah.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Farah\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Farah\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Habib\habib.aspx.cs">
       <DependentUpon>habib.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -118,6 +124,13 @@
     </Compile>
     <Compile Include="Hala\Hala.aspx.designer.cs">
       <DependentUpon>Hala.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hala\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hala\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="souliman\soulllllllimannnn.aspx.cs">
